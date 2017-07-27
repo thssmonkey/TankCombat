@@ -22,11 +22,9 @@ START_IMAGE.src = "images/begin.jpg";
 var GAME_IMAGE = new Image();
 GAME_IMAGE.src = "images/map.gif";
 var SELECT_IMAGE = [];
-SELECT_IMAGE[0] = new Image();
-SELECT_IMAGE[0].src = "images/level_1.png";
-for (var i = 1; i < screen.total_level; i++) {
+for (var i = 0; i < screen.total_level; i++) {
     SELECT_IMAGE[i] = new Image();
-    SELECT_IMAGE[i].src = "images/level_" + (i + 1) + ".jpg";
+    SELECT_IMAGE[i].src = "images/level_" + (i + 1) + ".png";
 }
 
 // 声音
