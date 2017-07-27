@@ -1,4 +1,5 @@
-一. 链接：
+一. 发布链接：
+
   https://thssmonkey.github.io/TankCombat/
   
 二. 功能清单：
