@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>Tank Combat</title>
+    <link rel="icon" href="images/tankIco.png" sizes="32x32" type="image/ico" />
+    <script type="text/javascript" src="js/jquery.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/param.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/common.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/level_map.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/category.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/main.js" charset="UTF-8"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/tank.css">
+</head>
+<body>
+    <div id="container" class="center-block">
+        <canvas id="map_scene"></canvas>
+        <canvas id="tank_scene"></canvas>
+        <canvas id="lawn_scene"></canvas>
+        <canvas id="end_scene"></canvas>
+        <canvas id="base_scene"></canvas>
+    </div>
+</body>
+<script type="text/javascript">
+    TankCombat.startGame();
+</script>
+</html>
